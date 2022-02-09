@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,7 +24,14 @@
 		5BCB21DB27471AB7007218B2 /* ALDemoProgrammaticMRecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB21DA27471AB7007218B2 /* ALDemoProgrammaticMRecViewController.m */; };
 		5BCB21DD274721F0007218B2 /* MRecs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BCB21DC274721F0007218B2 /* MRecs.storyboard */; };
 		5BCB21E8274C6459007218B2 /* ALDemoInterfaceBuilderMRecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BCB21E7274C6459007218B2 /* ALDemoInterfaceBuilderMRecViewController.m */; };
+		AD757EC4B82BEFCE92E67CD9 /* Pods_AppLovin_MAX_Demo_App___ObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D2F1303246DED19D2B79FB1 /* Pods_AppLovin_MAX_Demo_App___ObjC.framework */; };
 		C0DE8BB3234E8A86004B0CFC /* ALBaseAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DE8BB2234E8A86004B0CFC /* ALBaseAdViewController.m */; };
+		CED3DF7D27B40F3900A32A49 /* ALVerveMediationAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CED3DF7B27B40F3900A32A49 /* ALVerveMediationAdapter.m */; };
+		CED3DF8127B40F9100A32A49 /* ALVerveMediationBaseAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CED3DF8027B40F9100A32A49 /* ALVerveMediationBaseAdapter.m */; };
+		CED3DF8427B40FB100A32A49 /* ALVerveMediationBannerAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CED3DF8327B40FB100A32A49 /* ALVerveMediationBannerAdapter.m */; };
+		CED3DF8727B40FC600A32A49 /* ALVerveMediationInterstitialAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CED3DF8627B40FC600A32A49 /* ALVerveMediationInterstitialAdapter.m */; };
+		CED3DF8A27B40FDB00A32A49 /* ALVerveMediationRewardedAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CED3DF8927B40FDB00A32A49 /* ALVerveMediationRewardedAdapter.m */; };
+		CED3DF8D27B40FF100A32A49 /* ALVerveMediationNativeAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CED3DF8C27B40FF100A32A49 /* ALVerveMediationNativeAdapter.m */; };
 		E56784A623F22AB300ACA6C1 /* Rewarded.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E56784A523F22AB300ACA6C1 /* Rewarded.storyboard */; };
 		E567854523F22E1300ACA6C1 /* ALDemoRewardedVideosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E567854123F22E1300ACA6C1 /* ALDemoRewardedVideosViewController.m */; };
 		E567854623F22E1300ACA6C1 /* ALDemoRewardedVideosZoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E567854223F22E1300ACA6C1 /* ALDemoRewardedVideosZoneViewController.m */; };
@@ -74,8 +81,22 @@
 		5BCB21DC274721F0007218B2 /* MRecs.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MRecs.storyboard; sourceTree = "<group>"; };
 		5BCB21E6274C6459007218B2 /* ALDemoInterfaceBuilderMRecViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALDemoInterfaceBuilderMRecViewController.h; sourceTree = "<group>"; };
 		5BCB21E7274C6459007218B2 /* ALDemoInterfaceBuilderMRecViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALDemoInterfaceBuilderMRecViewController.m; sourceTree = "<group>"; };
+		6D2F1303246DED19D2B79FB1 /* Pods_AppLovin_MAX_Demo_App___ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_AppLovin_MAX_Demo_App___ObjC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0DE8BB1234E8A86004B0CFC /* ALBaseAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALBaseAdViewController.h; sourceTree = "<group>"; };
 		C0DE8BB2234E8A86004B0CFC /* ALBaseAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALBaseAdViewController.m; sourceTree = "<group>"; };
+		CED3DF7B27B40F3900A32A49 /* ALVerveMediationAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALVerveMediationAdapter.m; sourceTree = "<group>"; };
+		CED3DF7C27B40F3900A32A49 /* ALVerveMediationAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALVerveMediationAdapter.h; sourceTree = "<group>"; };
+		CED3DF7F27B40F9100A32A49 /* ALVerveMediationBaseAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALVerveMediationBaseAdapter.h; sourceTree = "<group>"; };
+		CED3DF8027B40F9100A32A49 /* ALVerveMediationBaseAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALVerveMediationBaseAdapter.m; sourceTree = "<group>"; };
+		CED3DF8227B40FB100A32A49 /* ALVerveMediationBannerAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALVerveMediationBannerAdapter.h; sourceTree = "<group>"; };
+		CED3DF8327B40FB100A32A49 /* ALVerveMediationBannerAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALVerveMediationBannerAdapter.m; sourceTree = "<group>"; };
+		CED3DF8527B40FC600A32A49 /* ALVerveMediationInterstitialAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALVerveMediationInterstitialAdapter.h; sourceTree = "<group>"; };
+		CED3DF8627B40FC600A32A49 /* ALVerveMediationInterstitialAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALVerveMediationInterstitialAdapter.m; sourceTree = "<group>"; };
+		CED3DF8827B40FDB00A32A49 /* ALVerveMediationRewardedAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALVerveMediationRewardedAdapter.h; sourceTree = "<group>"; };
+		CED3DF8927B40FDB00A32A49 /* ALVerveMediationRewardedAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALVerveMediationRewardedAdapter.m; sourceTree = "<group>"; };
+		CED3DF8B27B40FF100A32A49 /* ALVerveMediationNativeAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALVerveMediationNativeAdapter.h; sourceTree = "<group>"; };
+		CED3DF8C27B40FF100A32A49 /* ALVerveMediationNativeAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALVerveMediationNativeAdapter.m; sourceTree = "<group>"; };
+		D176C838EF8793704FAE8DDC /* Pods-AppLovin MAX Demo App - ObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppLovin MAX Demo App - ObjC.release.xcconfig"; path = "Target Support Files/Pods-AppLovin MAX Demo App - ObjC/Pods-AppLovin MAX Demo App - ObjC.release.xcconfig"; sourceTree = "<group>"; };
 		E56784A523F22AB300ACA6C1 /* Rewarded.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Rewarded.storyboard; sourceTree = "<group>"; };
 		E567854123F22E1300ACA6C1 /* ALDemoRewardedVideosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALDemoRewardedVideosViewController.m; sourceTree = "<group>"; };
 		E567854223F22E1300ACA6C1 /* ALDemoRewardedVideosZoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALDemoRewardedVideosZoneViewController.m; sourceTree = "<group>"; };
@@ -102,6 +123,7 @@
 		E573083323EB970400D972F4 /* ALDemoInterstitialManualLoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALDemoInterstitialManualLoadingViewController.m; sourceTree = "<group>"; };
 		E573083623EB972C00D972F4 /* ALDemoInterstitalZoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALDemoInterstitalZoneViewController.h; sourceTree = "<group>"; };
 		E573083723EB972C00D972F4 /* ALDemoInterstitalZoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALDemoInterstitalZoneViewController.m; sourceTree = "<group>"; };
+		EFB47168DB5EB49C0E73F542 /* Pods-AppLovin MAX Demo App - ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppLovin MAX Demo App - ObjC.debug.xcconfig"; path = "Target Support Files/Pods-AppLovin MAX Demo App - ObjC/Pods-AppLovin MAX Demo App - ObjC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD757EC4B82BEFCE92E67CD9 /* Pods_AppLovin_MAX_Demo_App___ObjC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +141,7 @@
 		1D0CB33823204EBD0076AAAA /* MAX */ = {
 			isa = PBXGroup;
 			children = (
+				CED3DF7E27B40F6500A32A49 /* VerveAdapters */,
 				1D629D5D240F4E6600FE6F5F /* Banners */,
 				1D629D5E240F4E7200FE6F5F /* Interstitials */,
 				37B6CED3246E04D30068A6A4 /* MRECs */,
@@ -173,6 +197,8 @@
 			children = (
 				1D992FDD231FA1C300C472F8 /* AppLovin MAX Demo App - ObjC */,
 				1D992FDC231FA1C300C472F8 /* Products */,
+				D5BAB3FB5B5FDAD380A4D22B /* Pods */,
+				26F3F8FA0479525EED5BD1ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -214,6 +240,14 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		26F3F8FA0479525EED5BD1ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D2F1303246DED19D2B79FB1 /* Pods_AppLovin_MAX_Demo_App___ObjC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		37B6CED3246E04D30068A6A4 /* MRECs */ = {
 			isa = PBXGroup;
 			children = (
@@ -252,6 +286,34 @@
 				5BCB21E7274C6459007218B2 /* ALDemoInterfaceBuilderMRecViewController.m */,
 			);
 			path = "Interface Builder";
+			sourceTree = "<group>";
+		};
+		CED3DF7E27B40F6500A32A49 /* VerveAdapters */ = {
+			isa = PBXGroup;
+			children = (
+				CED3DF7C27B40F3900A32A49 /* ALVerveMediationAdapter.h */,
+				CED3DF7B27B40F3900A32A49 /* ALVerveMediationAdapter.m */,
+				CED3DF7F27B40F9100A32A49 /* ALVerveMediationBaseAdapter.h */,
+				CED3DF8027B40F9100A32A49 /* ALVerveMediationBaseAdapter.m */,
+				CED3DF8227B40FB100A32A49 /* ALVerveMediationBannerAdapter.h */,
+				CED3DF8327B40FB100A32A49 /* ALVerveMediationBannerAdapter.m */,
+				CED3DF8527B40FC600A32A49 /* ALVerveMediationInterstitialAdapter.h */,
+				CED3DF8627B40FC600A32A49 /* ALVerveMediationInterstitialAdapter.m */,
+				CED3DF8827B40FDB00A32A49 /* ALVerveMediationRewardedAdapter.h */,
+				CED3DF8927B40FDB00A32A49 /* ALVerveMediationRewardedAdapter.m */,
+				CED3DF8B27B40FF100A32A49 /* ALVerveMediationNativeAdapter.h */,
+				CED3DF8C27B40FF100A32A49 /* ALVerveMediationNativeAdapter.m */,
+			);
+			path = VerveAdapters;
+			sourceTree = "<group>";
+		};
+		D5BAB3FB5B5FDAD380A4D22B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EFB47168DB5EB49C0E73F542 /* Pods-AppLovin MAX Demo App - ObjC.debug.xcconfig */,
+				D176C838EF8793704FAE8DDC /* Pods-AppLovin MAX Demo App - ObjC.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		E567854723F22E1E00ACA6C1 /* Rewarded */ = {
@@ -411,9 +473,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D992FF1231FA1C500C472F8 /* Build configuration list for PBXNativeTarget "AppLovin MAX Demo App - ObjC" */;
 			buildPhases = (
+				6C32D7DFAACD41F1472D9F95 /* [CP] Check Pods Manifest.lock */,
 				1D992FD7231FA1C300C472F8 /* Sources */,
 				1D992FD8231FA1C300C472F8 /* Frameworks */,
 				1D992FD9231FA1C300C472F8 /* Resources */,
+				24330FE3541CE552078D5D33 /* [CP] Copy Pods Resources */,
+				21AB27C9520177A88E5C9E58 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -474,21 +539,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21AB27C9520177A88E5C9E58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppLovin MAX Demo App - ObjC/Pods-AppLovin MAX Demo App - ObjC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppLovin MAX Demo App - ObjC/Pods-AppLovin MAX Demo App - ObjC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppLovin MAX Demo App - ObjC/Pods-AppLovin MAX Demo App - ObjC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24330FE3541CE552078D5D33 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppLovin MAX Demo App - ObjC/Pods-AppLovin MAX Demo App - ObjC-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppLovin MAX Demo App - ObjC/Pods-AppLovin MAX Demo App - ObjC-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppLovin MAX Demo App - ObjC/Pods-AppLovin MAX Demo App - ObjC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C32D7DFAACD41F1472D9F95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppLovin MAX Demo App - ObjC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1D992FD7231FA1C300C472F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED3DF7D27B40F3900A32A49 /* ALVerveMediationAdapter.m in Sources */,
 				C0DE8BB3234E8A86004B0CFC /* ALBaseAdViewController.m in Sources */,
 				37C7E1F62329742E002165B5 /* ALHomeViewController.m in Sources */,
 				E567854523F22E1300ACA6C1 /* ALDemoRewardedVideosViewController.m in Sources */,
+				CED3DF8A27B40FDB00A32A49 /* ALVerveMediationRewardedAdapter.m in Sources */,
+				CED3DF8427B40FB100A32A49 /* ALVerveMediationBannerAdapter.m in Sources */,
+				CED3DF8127B40F9100A32A49 /* ALVerveMediationBaseAdapter.m in Sources */,
 				37C7E1F523297423002165B5 /* main.m in Sources */,
 				E56785EE23F3557B00ACA6C1 /* ALDemoBannerZoneViewController.m in Sources */,
 				E56785E823F3555A00ACA6C1 /* ALDemoProgrammaticBannerViewController.m in Sources */,
 				E567854623F22E1300ACA6C1 /* ALDemoRewardedVideosZoneViewController.m in Sources */,
 				37B6CEDB246E05D00068A6A4 /* ALMAXInterfaceBuilderMRecAdViewController.m in Sources */,
+				CED3DF8D27B40FF100A32A49 /* ALVerveMediationNativeAdapter.m in Sources */,
 				E56785EB23F3557100ACA6C1 /* ALDemoInterfaceBuilderBannerViewController.m in Sources */,
 				37C7E1F3232892CF002165B5 /* ALAppDelegate.m in Sources */,
+				CED3DF8727B40FC600A32A49 /* ALVerveMediationInterstitialAdapter.m in Sources */,
 				E56786FA23F4CAE100ACA6C1 /* ALEventTrackingViewController.m in Sources */,
 				E573083823EB972C00D972F4 /* ALDemoInterstitalZoneViewController.m in Sources */,
 				5BCB21E8274C6459007218B2 /* ALDemoInterfaceBuilderMRecViewController.m in Sources */,
@@ -647,10 +777,11 @@
 		};
 		1D992FF2231FA1C500C472F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFB47168DB5EB49C0E73F542 /* Pods-AppLovin MAX Demo App - ObjC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7WXN7X228H;
+				DEVELOPMENT_TEAM = TL55SBB4FM;
 				INFOPLIST_FILE = "$(SRCROOT)/AppLovin MAX Demo App - ObjC/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -666,10 +797,11 @@
 		};
 		1D992FF3231FA1C500C472F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D176C838EF8793704FAE8DDC /* Pods-AppLovin MAX Demo App - ObjC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7WXN7X228H;
+				DEVELOPMENT_TEAM = TL55SBB4FM;
 				INFOPLIST_FILE = "$(SRCROOT)/AppLovin MAX Demo App - ObjC/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

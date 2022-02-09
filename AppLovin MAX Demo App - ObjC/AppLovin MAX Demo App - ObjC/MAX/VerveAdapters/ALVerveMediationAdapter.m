@@ -9,7 +9,7 @@
 #import "ALVerveMediationAdapter.h"
 #import <HyBid.h>
 
-#define ADAPTER_VERSION @"2.9.1.0"
+#define ADAPTER_VERSION @"2.11.0.0"
 
 @interface ALVerveMediationAdapterInterstitialAdDelegate : NSObject<HyBidInterstitialAdDelegate>
 @property (nonatomic, weak) ALVerveMediationAdapter *parentAdapter;
@@ -130,7 +130,7 @@ static MAAdapterInitializationStatus ALVerveInitializationStatus = NSIntegerMin;
     [delegate didCollectSignal: signal];
 }
 
-#pragma mark - MAInterstitialAdpater Methods
+#pragma mark - MAInterstitialAdapter Methods
 
 - (void)loadInterstitialAdForParameters:(id<MAAdapterResponseParameters>)parameters andNotify:(id<MAInterstitialAdapterDelegate>)delegate
 {
@@ -205,6 +205,16 @@ static MAAdapterInitializationStatus ALVerveInitializationStatus = NSIntegerMin;
     self.adViewAd.delegate = self.adViewAdapterDelegate;
 
     [self.adViewAd renderAdWithContent: parameters.bidResponse withDelegate: self.adViewAdapterDelegate];
+}
+
+#pragma mark - MANativeAdapter Methods
+
+- (void)loadNativeAdForParameters:(id<MAAdapterResponseParameters>)parameters andNotify:(id<MANativeAdAdapterDelegate>)delegate
+{
+    [self log: @"Loading rewarded ad"];
+    
+    [self updateConsentWithParameters: parameters];
+    [self updateMuteStateForParameters: parameters];
 }
 
 #pragma mark - Shared Methods
