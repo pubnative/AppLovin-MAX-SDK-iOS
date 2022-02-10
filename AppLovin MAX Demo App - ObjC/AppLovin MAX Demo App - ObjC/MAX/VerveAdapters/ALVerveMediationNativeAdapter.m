@@ -10,4 +10,9 @@
 
 @implementation ALVerveMediationNativeAdapter
 
+- (void)loadNativeAdForParameters:(id<MAAdapterResponseParameters>)parameters andNotify:(id<MANativeAdAdapterDelegate>)delegate
+{
+    
+}
+
 @end

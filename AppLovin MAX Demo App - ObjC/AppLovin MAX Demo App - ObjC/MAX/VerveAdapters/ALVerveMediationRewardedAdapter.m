@@ -10,4 +10,14 @@
 
 @implementation ALVerveMediationRewardedAdapter
 
+- (void)loadRewardedAdForParameters:(id<MAAdapterResponseParameters>)parameters andNotify:(id<MARewardedAdapterDelegate>)delegate
+{
+    
+}
+
+- (void)showRewardedAdForParameters:(id<MAAdapterResponseParameters>)parameters andNotify:(id<MARewardedAdapterDelegate>)delegate
+{
+    
+}
+
 @end

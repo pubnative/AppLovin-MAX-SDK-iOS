@@ -6,10 +6,8 @@
 //  Copyright © 2022 AppLovin Corporation. All rights reserved.
 //
 
-NS_ASSUME_NONNULL_BEGIN
+#import "ALVerveMediationBaseAdapter.h"
 
-@interface ALVerveMediationInterstitialAdapter : NSObject
+@interface ALVerveMediationInterstitialAdapter : ALVerveMediationBaseAdapter<MAInterstitialAdapter>
 
 @end
-
-NS_ASSUME_NONNULL_END

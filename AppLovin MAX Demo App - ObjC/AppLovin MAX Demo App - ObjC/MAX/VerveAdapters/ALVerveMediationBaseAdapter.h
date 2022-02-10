@@ -8,10 +8,6 @@
 
 #import <AppLovinSDK/AppLovinSDK.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
-@interface ALVerveMediationBaseAdapter : NSObject
+@interface ALVerveMediationBaseAdapter : ALMediationAdapter
 
 @end
-
-NS_ASSUME_NONNULL_END

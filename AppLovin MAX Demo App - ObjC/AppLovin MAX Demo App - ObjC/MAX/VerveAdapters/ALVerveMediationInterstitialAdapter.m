@@ -10,4 +10,14 @@
 
 @implementation ALVerveMediationInterstitialAdapter
 
+- (void)loadInterstitialAdForParameters:(id<MAAdapterResponseParameters>)parameters andNotify:(id<MAInterstitialAdapterDelegate>)delegate
+{
+    
+}
+
+- (void)showInterstitialAdForParameters:(id<MAAdapterResponseParameters>)parameters andNotify:(id<MAInterstitialAdapterDelegate>)delegate
+{
+    
+}
+
 @end

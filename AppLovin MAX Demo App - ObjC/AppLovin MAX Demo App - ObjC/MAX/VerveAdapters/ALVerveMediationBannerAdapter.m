@@ -10,4 +10,9 @@
 
 @implementation ALVerveMediationBannerAdapter
 
+- (void)loadAdViewAdForParameters:(id<MAAdapterResponseParameters>)parameters adFormat:(MAAdFormat *)adFormat andNotify:(id<MAAdViewAdapterDelegate>)delegate
+{
+    
+}
+
 @end
