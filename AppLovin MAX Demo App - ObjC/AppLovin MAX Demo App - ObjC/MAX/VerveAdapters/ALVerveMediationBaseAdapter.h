@@ -10,4 +10,9 @@
 
 @interface ALVerveMediationBaseAdapter : ALMediationAdapter
 
+- (void)updateConsentWithParameters:(id<MAAdapterParameters>)parameters;
+- (void)updateMuteStateForParameters:(id<MAAdapterResponseParameters>)parameters;
+
++ (MAAdapterError *)toMaxError:(NSError *)verveError;
+
 @end
