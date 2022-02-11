@@ -240,7 +240,7 @@ static MAAdapterInitializationStatus ALVerveInitializationStatus = NSIntegerMin;
     
     HyBidNativeAdLoader *nativeAdLoader = [[HyBidNativeAdLoader alloc] init];
     self.nativeAdAdapterDelegate = [[ALVerveMediationAdapterNativeAdDelegate alloc] initWithParentAdapter: self serverParameters: parameters.serverParameters andNotify: delegate];
-    [nativeAdLoader loadNativeAdWithDelegate:self.nativeAdAdapterDelegate withZoneID:@"7"];
+    [nativeAdLoader prepareNativeAdWithDelegate:self.nativeAdAdapterDelegate withContent:parameters.bidResponse]
 }
 
 #pragma mark - Shared Methods
