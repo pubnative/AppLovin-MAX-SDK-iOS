@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 54;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -72,7 +72,7 @@
 		1D992FEA231FA1C500C472F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D992FEC231FA1C500C472F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D992FED231FA1C500C472F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1EE3EF00A93A7BAE3559B4AC /* AppLovinQualityService.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = AppLovinQualityService.xcframework; path = AppLovinQualityService/AppLovinQualityService.xcframework; sourceTree = "<group>"; };
+		1EE3EF00A93A7BAE3559B4AC /* AppLovinQualityService.xcframework */ = {isa = PBXFileReference; expectedSignature = "AppleDeveloperProgram:B8HZ37M8S5:SafeDK Mobile Ltd."; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = AppLovinQualityService.xcframework; path = AppLovinQualityService/AppLovinQualityService.xcframework; sourceTree = "<group>"; };
 		3517A8CD27F76F860074CCDE /* ALMAXAdPlacerCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALMAXAdPlacerCollectionViewController.h; sourceTree = "<group>"; };
 		3517A8CE27F76F860074CCDE /* ALMAXAdPlacerCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALMAXAdPlacerCollectionViewController.m; sourceTree = "<group>"; };
 		3517A8D027F76F9D0074CCDE /* ALMAXAdPlacerTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALMAXAdPlacerTableViewController.h; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 		77B6F434279B51AB0063F81D /* ALMAXTemplateNativeAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMAXTemplateNativeAdViewController.h; sourceTree = "<group>"; };
 		77B6F435279B51AB0063F81D /* ALMAXManualNativeAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMAXManualNativeAdViewController.h; sourceTree = "<group>"; };
 		77B6F436279B51AB0063F81D /* ALMAXTemplateNativeAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMAXTemplateNativeAdViewController.m; sourceTree = "<group>"; };
-		8B44FAD7FD9A7F46FD47BFD5 /* Pods_AppLovin_MAX_Demo_App___ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppLovin_MAX_Demo_App___ObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B44FAD7FD9A7F46FD47BFD5 /* Pods_AppLovin_MAX_Demo_App___ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_AppLovin_MAX_Demo_App___ObjC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		947968BDEB66F929BB7F3151 /* Pods-Non-Mediated Projects-AppLovin MAX Demo App - ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Non-Mediated Projects-AppLovin MAX Demo App - ObjC.debug.xcconfig"; path = "Target Support Files/Pods-Non-Mediated Projects-AppLovin MAX Demo App - ObjC/Pods-Non-Mediated Projects-AppLovin MAX Demo App - ObjC.debug.xcconfig"; sourceTree = "<group>"; };
 		C0DE8BB1234E8A86004B0CFC /* ALBaseAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALBaseAdViewController.h; sourceTree = "<group>"; };
 		C0DE8BB2234E8A86004B0CFC /* ALBaseAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALBaseAdViewController.m; sourceTree = "<group>"; };
@@ -317,9 +317,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D992FF1231FA1C500C472F8 /* Build configuration list for PBXNativeTarget "AppLovin MAX Demo App - ObjC" */;
 			buildPhases = (
+				364A00E5BFE65DB7D28409F8 /* [CP] Check Pods Manifest.lock */,
 				F5A9FD534EAE070284E9F6C5 /* AppLovinQualityService Updater */,
 				3EDF044664466AF792A22D93 /* AppLovinQualityService Embed Framework */,
-				364A00E5BFE65DB7D28409F8 /* [CP] Check Pods Manifest.lock */,
 				1D992FD7231FA1C300C472F8 /* Sources */,
 				1D992FD8231FA1C300C472F8 /* Frameworks */,
 				1D992FD9231FA1C300C472F8 /* Resources */,
