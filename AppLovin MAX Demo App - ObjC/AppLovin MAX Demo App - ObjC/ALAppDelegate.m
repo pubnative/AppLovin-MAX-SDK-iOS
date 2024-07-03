@@ -13,7 +13,7 @@
 @implementation ALAppDelegate
 
 // If you want to test your own AppLovin SDK key, change the value here and update the bundle identifier in the xcodeproj.
-static NSString *const YOUR_SDK_KEY = @"05TMDQ5tZabpXQ45_UTbmEGNUtVAzSTzT6KmWQc5_CuWdzccS4DCITZoL3yIWUG3bbq60QC_d4WF28tUC4gVTF";
+static NSString *const YOUR_SDK_KEY = @"sMRyqsHzbW5B55p5RLfJTNaXBH1rFzvkU5_LGa_Kerigolzf62Jl6iwzLtMIqn2XRt0tDol1bAc8g0N7C7c51N";
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -23,11 +23,11 @@ static NSString *const YOUR_SDK_KEY = @"05TMDQ5tZabpXQ45_UTbmEGNUtVAzSTzT6KmWQc5
         builder.mediationProvider = ALMediationProviderMAX;
         
         // Enable test mode by default for the current device.
-        NSString *currentIDFV = UIDevice.currentDevice.identifierForVendor.UUIDString;
+        /*NSString *currentIDFV = UIDevice.currentDevice.identifierForVendor.UUIDString;
         if ( currentIDFV.length > 0 )
         {
             builder.testDeviceAdvertisingIdentifiers = @[currentIDFV];
-        }
+        }*/
     }];
 
     // Initialize the SDK with the configuration

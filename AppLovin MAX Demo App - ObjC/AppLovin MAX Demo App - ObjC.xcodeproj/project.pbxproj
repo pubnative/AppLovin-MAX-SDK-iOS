@@ -31,12 +31,30 @@
 		77B6F431279B51850063F81D /* NativeManualAdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77B6F430279B51850063F81D /* NativeManualAdView.xib */; };
 		77B6F437279B51AB0063F81D /* ALMAXManualNativeAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B6F433279B51AB0063F81D /* ALMAXManualNativeAdViewController.m */; };
 		77B6F438279B51AB0063F81D /* ALMAXTemplateNativeAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B6F436279B51AB0063F81D /* ALMAXTemplateNativeAdViewController.m */; };
+		97FCF385BA11F1E6B471737B /* AppLovinQualityService.xcframework in AppLovinQualityService Embed Framework */ = {isa = PBXBuildFile; fileRef = 1EE3EF00A93A7BAE3559B4AC /* AppLovinQualityService.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C0DE8BB3234E8A86004B0CFC /* ALBaseAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DE8BB2234E8A86004B0CFC /* ALBaseAdViewController.m */; };
+		CE2E056E32B8B5630D6DC7C9 /* AppLovinQualityService.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE3EF00A93A7BAE3559B4AC /* AppLovinQualityService.xcframework */; };
+		CE30F0B02C358A33005367E5 /* ALMAXInterstitialAdSecondaryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE30F0AF2C358A33005367E5 /* ALMAXInterstitialAdSecondaryViewController.m */; };
+		CE30F0B32C35962B005367E5 /* ALVerveMediationAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = CE30F0B22C35962B005367E5 /* ALVerveMediationAdapter.m */; };
 		DEEC21EE299EC35C002313FB /* ALMAXAppOpenAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEC21ED299EC35C002313FB /* ALMAXAppOpenAdViewController.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3EDF044664466AF792A22D93 /* AppLovinQualityService Embed Framework */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				97FCF385BA11F1E6B471737B /* AppLovinQualityService.xcframework in AppLovinQualityService Embed Framework */,
+			);
+			name = "AppLovinQualityService Embed Framework";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		03BC9EB9E864EC8A282B84DB /* Pods-AppLovin MAX Demo App - ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppLovin MAX Demo App - ObjC.debug.xcconfig"; path = "Target Support Files/Pods-AppLovin MAX Demo App - ObjC/Pods-AppLovin MAX Demo App - ObjC.debug.xcconfig"; sourceTree = "<group>"; };
+		03BC9EB9E864EC8A282B84DB /* Pods-AppLovin MAX Demo App - ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppLovin MAX Demo App - ObjC.debug.xcconfig"; path = "../../AppLovin-MAX-SDK-iOS/AppLovin MAX Demo App - ObjC/Pods/Target Support Files/Pods-AppLovin MAX Demo App - ObjC/Pods-AppLovin MAX Demo App - ObjC.debug.xcconfig"; sourceTree = "<group>"; };
 		13C37ED6A69CB1BAEB81EB97 /* Pods-Non-Mediated Projects-AppLovin MAX Demo App - ObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Non-Mediated Projects-AppLovin MAX Demo App - ObjC.release.xcconfig"; path = "Target Support Files/Pods-Non-Mediated Projects-AppLovin MAX Demo App - ObjC/Pods-Non-Mediated Projects-AppLovin MAX Demo App - ObjC.release.xcconfig"; sourceTree = "<group>"; };
 		1D0CB32E23204CE70076AAAA /* ALMAXInterstitialAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALMAXInterstitialAdViewController.h; sourceTree = "<group>"; };
 		1D0CB32F23204CE70076AAAA /* ALMAXInterstitialAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALMAXInterstitialAdViewController.m; sourceTree = "<group>"; };
@@ -54,6 +72,7 @@
 		1D992FEA231FA1C500C472F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D992FEC231FA1C500C472F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D992FED231FA1C500C472F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1EE3EF00A93A7BAE3559B4AC /* AppLovinQualityService.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = AppLovinQualityService.xcframework; path = AppLovinQualityService/AppLovinQualityService.xcframework; sourceTree = "<group>"; };
 		3517A8CD27F76F860074CCDE /* ALMAXAdPlacerCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALMAXAdPlacerCollectionViewController.h; sourceTree = "<group>"; };
 		3517A8CE27F76F860074CCDE /* ALMAXAdPlacerCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALMAXAdPlacerCollectionViewController.m; sourceTree = "<group>"; };
 		3517A8D027F76F9D0074CCDE /* ALMAXAdPlacerTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALMAXAdPlacerTableViewController.h; sourceTree = "<group>"; };
@@ -81,11 +100,15 @@
 		77B6F434279B51AB0063F81D /* ALMAXTemplateNativeAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMAXTemplateNativeAdViewController.h; sourceTree = "<group>"; };
 		77B6F435279B51AB0063F81D /* ALMAXManualNativeAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMAXManualNativeAdViewController.h; sourceTree = "<group>"; };
 		77B6F436279B51AB0063F81D /* ALMAXTemplateNativeAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMAXTemplateNativeAdViewController.m; sourceTree = "<group>"; };
-		8B44FAD7FD9A7F46FD47BFD5 /* Pods_AppLovin_MAX_Demo_App___ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_AppLovin_MAX_Demo_App___ObjC.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B44FAD7FD9A7F46FD47BFD5 /* Pods_AppLovin_MAX_Demo_App___ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppLovin_MAX_Demo_App___ObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		947968BDEB66F929BB7F3151 /* Pods-Non-Mediated Projects-AppLovin MAX Demo App - ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Non-Mediated Projects-AppLovin MAX Demo App - ObjC.debug.xcconfig"; path = "Target Support Files/Pods-Non-Mediated Projects-AppLovin MAX Demo App - ObjC/Pods-Non-Mediated Projects-AppLovin MAX Demo App - ObjC.debug.xcconfig"; sourceTree = "<group>"; };
 		C0DE8BB1234E8A86004B0CFC /* ALBaseAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALBaseAdViewController.h; sourceTree = "<group>"; };
 		C0DE8BB2234E8A86004B0CFC /* ALBaseAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALBaseAdViewController.m; sourceTree = "<group>"; };
-		D5800DCAD909EC69A12040D8 /* Pods-AppLovin MAX Demo App - ObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppLovin MAX Demo App - ObjC.release.xcconfig"; path = "Target Support Files/Pods-AppLovin MAX Demo App - ObjC/Pods-AppLovin MAX Demo App - ObjC.release.xcconfig"; sourceTree = "<group>"; };
+		CE30F0AE2C358A33005367E5 /* ALMAXInterstitialAdSecondaryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALMAXInterstitialAdSecondaryViewController.h; sourceTree = "<group>"; };
+		CE30F0AF2C358A33005367E5 /* ALMAXInterstitialAdSecondaryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALMAXInterstitialAdSecondaryViewController.m; sourceTree = "<group>"; };
+		CE30F0B12C35962B005367E5 /* ALVerveMediationAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALVerveMediationAdapter.h; path = ../../Verve/VerveAdapter/ALVerveMediationAdapter.h; sourceTree = "<group>"; };
+		CE30F0B22C35962B005367E5 /* ALVerveMediationAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALVerveMediationAdapter.m; path = ../../Verve/VerveAdapter/ALVerveMediationAdapter.m; sourceTree = "<group>"; };
+		D5800DCAD909EC69A12040D8 /* Pods-AppLovin MAX Demo App - ObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppLovin MAX Demo App - ObjC.release.xcconfig"; path = "../../AppLovin-MAX-SDK-iOS/AppLovin MAX Demo App - ObjC/Pods/Target Support Files/Pods-AppLovin MAX Demo App - ObjC/Pods-AppLovin MAX Demo App - ObjC.release.xcconfig"; sourceTree = "<group>"; };
 		DEEC21EC299EC35C002313FB /* ALMAXAppOpenAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMAXAppOpenAdViewController.h; sourceTree = "<group>"; };
 		DEEC21ED299EC35C002313FB /* ALMAXAppOpenAdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMAXAppOpenAdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2E056E32B8B5630D6DC7C9 /* AppLovinQualityService.xcframework in Frameworks */,
 				7388F8D5496E9357FE15E578 /* Pods_AppLovin_MAX_Demo_App___ObjC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -133,6 +157,8 @@
 			children = (
 				1D0CB32E23204CE70076AAAA /* ALMAXInterstitialAdViewController.h */,
 				1D0CB32F23204CE70076AAAA /* ALMAXInterstitialAdViewController.m */,
+				CE30F0AE2C358A33005367E5 /* ALMAXInterstitialAdSecondaryViewController.h */,
+				CE30F0AF2C358A33005367E5 /* ALMAXInterstitialAdSecondaryViewController.m */,
 			);
 			path = Interstitials;
 			sourceTree = "<group>";
@@ -166,6 +192,7 @@
 				1D992FDC231FA1C300C472F8 /* Products */,
 				3EC2858E38D12C9C64408704 /* Pods */,
 				ACA5A0C2B52B3F6CBD15E78A /* Frameworks */,
+				EBB51A30F78E31EEF2FAC6E7 /* AppLovinQualityService */,
 			);
 			sourceTree = "<group>";
 		};
@@ -180,6 +207,8 @@
 		1D992FDD231FA1C300C472F8 /* AppLovin MAX Demo App - ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				CE30F0B12C35962B005367E5 /* ALVerveMediationAdapter.h */,
+				CE30F0B22C35962B005367E5 /* ALVerveMediationAdapter.m */,
 				1D992FDE231FA1C300C472F8 /* ALAppDelegate.h */,
 				1D992FDF231FA1C400C472F8 /* ALAppDelegate.m */,
 				1D629D60240F4E8A00FE6F5F /* Base Classes */,
@@ -273,6 +302,14 @@
 			path = "App Open Ads";
 			sourceTree = "<group>";
 		};
+		EBB51A30F78E31EEF2FAC6E7 /* AppLovinQualityService */ = {
+			isa = PBXGroup;
+			children = (
+				1EE3EF00A93A7BAE3559B4AC /* AppLovinQualityService.xcframework */,
+			);
+			name = AppLovinQualityService;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -280,12 +317,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D992FF1231FA1C500C472F8 /* Build configuration list for PBXNativeTarget "AppLovin MAX Demo App - ObjC" */;
 			buildPhases = (
+				F5A9FD534EAE070284E9F6C5 /* AppLovinQualityService Updater */,
+				3EDF044664466AF792A22D93 /* AppLovinQualityService Embed Framework */,
 				364A00E5BFE65DB7D28409F8 /* [CP] Check Pods Manifest.lock */,
 				1D992FD7231FA1C300C472F8 /* Sources */,
 				1D992FD8231FA1C300C472F8 /* Frameworks */,
 				1D992FD9231FA1C300C472F8 /* Resources */,
 				EF0DF9E2C9B57F1BB245498D /* [CP] Embed Pods Frameworks */,
-				4A58E842E99F158FEB0D9924 /* [CP] Copy Pods Resources */,
+				6D5C250B507E53ADC25977A5 /* AppLovinQualityService */,
 			);
 			buildRules = (
 			);
@@ -365,22 +404,31 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4A58E842E99F158FEB0D9924 /* [CP] Copy Pods Resources */ = {
+		6D5C250B507E53ADC25977A5 /* AppLovinQualityService */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AppLovin MAX Demo App - ObjC/Pods-AppLovin MAX Demo App - ObjC-resources-${CONFIGURATION}-input-files.xcfilelist",
+			inputPaths = (
+				AppLovinQualityService/AppLovinQualityServicePlugin.app,
+				AppLovinQualityService/AppLovinQualityServicePlugin.app/Contents/Info.plist,
+				AppLovinQualityService/AppLovinQualityServicePlugin.app/Contents/MacOS/AppLovinQualityServicePlugin,
+				AppLovinQualityService/AppLovinQualityServicePlugin.app/Contents/Resources,
+				AppLovinQualityService/AppLovinQualityServicePlugin.app/Contents/Info.plist,
+				AppLovinQualityService/AppLovinQualityServicePlugin.app/Contents/MacOS/AppLovinQualityServicePlugin,
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+				"$(TARGET_BUILD_DIR)/$(EXECUTABLE_PATH)",
+				"$(TARGET_BUILD_DIR)/$(FRAMEWORKS_FOLDER_PATH)/UnityFramework.framework/UnityFramework",
+				"AppLovinQualityServiceSetup-ios.rb",
 			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AppLovin MAX Demo App - ObjC/Pods-AppLovin MAX Demo App - ObjC-resources-${CONFIGURATION}-output-files.xcfilelist",
+			name = AppLovinQualityService;
+			outputPaths = (
+				"$(TARGET_BUILD_DIR)/$(EXECUTABLE_FOLDER_PATH)/.AppLovinQualityService/AppLovinQualityService.json",
+				"$(TARGET_BUILD_DIR)/$(EXECUTABLE_FOLDER_PATH)/.AppLovinQualityService/AppLovinQualityServiceRanges.json",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppLovin MAX Demo App - ObjC/Pods-AppLovin MAX Demo App - ObjC-resources.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "AppLovinQualityService/AppLovinQualityServicePlugin.app/Contents/MacOS/AppLovinQualityServicePlugin \"AppLovinQualityServiceSetup-ios.rb\"";
 		};
 		EF0DF9E2C9B57F1BB245498D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -398,6 +446,22 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppLovin MAX Demo App - ObjC/Pods-AppLovin MAX Demo App - ObjC-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		F5A9FD534EAE070284E9F6C5 /* AppLovinQualityService Updater */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "AppLovinQualityService Updater";
+			outputPaths = (
+				AppLovinQualityService/AppLovinQualityServicePlugin.app,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ruby \"AppLovinQualityServiceSetup-ios.rb\" update";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -420,7 +484,9 @@
 				37B6CED5246E04FC0068A6A4 /* ALMAXAutoLayoutMRecAdViewController.m in Sources */,
 				37C7E1EB2328904E002165B5 /* ALMAXAutoLayoutBannerAdViewController.m in Sources */,
 				3517A8D227F76F9D0074CCDE /* ALMAXAdPlacerTableViewController.m in Sources */,
+				CE30F0B02C358A33005367E5 /* ALMAXInterstitialAdSecondaryViewController.m in Sources */,
 				37B6CED8246E05770068A6A4 /* ALMAXFrameLayoutMRecAdViewController.m in Sources */,
+				CE30F0B32C35962B005367E5 /* ALVerveMediationAdapter.m in Sources */,
 				37C7E1EC2328904E002165B5 /* ALMAXFrameLayoutBannerAdViewController.m in Sources */,
 				37C7E1ED2328904E002165B5 /* ALMAXInterstitialAdViewController.m in Sources */,
 				77AAC0F527D800890060499A /* ALMAXManualNativeLateBindingAdViewController.m in Sources */,
@@ -490,6 +556,10 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppLovinQualityService",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -551,6 +621,10 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AppLovinQualityService",
+				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -573,16 +647,24 @@
 			baseConfigurationReference = 03BC9EB9E864EC8A282B84DB /* Pods-AppLovin MAX Demo App - ObjC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TL55SBB4FM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/AppLovin MAX Demo App - ObjC/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.applovin.enterprise.apps.demoapp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.tvsmiles.tvsmiles;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -594,16 +676,24 @@
 			baseConfigurationReference = D5800DCAD909EC69A12040D8 /* Pods-AppLovin MAX Demo App - ObjC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TL55SBB4FM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(inherited)",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/AppLovin MAX Demo App - ObjC/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = com.applovin.enterprise.apps.demoapp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.tvsmiles.tvsmiles;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";

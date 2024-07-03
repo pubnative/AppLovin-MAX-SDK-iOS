@@ -1,10 +1,12 @@
 use_frameworks!
 inhibit_all_warnings!
-platform :ios, '11.0'
+platform :ios, '12.0'
 
 # Please use 'pod install --repo-update' to ensure you have the latest versions of our SDKs.
 
 target 'AppLovin MAX Demo App - ObjC' do
   pod 'AppLovinSDK'
   pod 'Adjust'
+  pod 'HyBid', '3.0.3'
+  pod 'ATOM-Standalone', '3.0.7'
 end
