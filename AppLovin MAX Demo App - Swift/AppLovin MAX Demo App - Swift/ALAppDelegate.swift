@@ -13,7 +13,7 @@ import UIKit
 class ALAppDelegate: UIResponder, UIApplicationDelegate
 {
     // If you want to test your own AppLovin SDK key, change the value here and update the bundle identifier in the xcodeproj.
-    let YOUR_SDK_KEY = "05TMDQ5tZabpXQ45_UTbmEGNUtVAzSTzT6KmWQc5_CuWdzccS4DCITZoL3yIWUG3bbq60QC_d4WF28tUC4gVTF"
+    let YOUR_SDK_KEY = "sMRyqsHzbW5B55p5RLfJTNaXBH1rFzvkU5_LGa_Kerigolzf62Jl6iwzLtMIqn2XRt0tDol1bAc8g0N7C7c51N"
     
     var window: UIWindow?
     
@@ -25,10 +25,10 @@ class ALAppDelegate: UIResponder, UIApplicationDelegate
             builder.mediationProvider = ALMediationProviderMAX
              
             // Enable test mode by default for the current device.
-            if let currentIDFV = UIDevice.current.identifierForVendor?.uuidString
+            /*if let currentIDFV = UIDevice.current.identifierForVendor?.uuidString
             {
                 builder.testDeviceAdvertisingIdentifiers = [currentIDFV]
-            }
+            }*/
         }
 
         // Initialize the SDK with the configuration

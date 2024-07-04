@@ -710,8 +710,6 @@
             <key>SKAdNetworkIdentifier</key>
             <string>zq492l623r.skadnetwork</string>
         </dict>
-
-
 	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>

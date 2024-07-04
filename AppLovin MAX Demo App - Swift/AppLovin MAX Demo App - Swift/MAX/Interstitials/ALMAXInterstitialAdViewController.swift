@@ -12,7 +12,7 @@ import UIKit
 
 class ALMAXInterstitialAdViewController: ALBaseAdViewController, MAAdViewAdDelegate, MAAdRevenueDelegate
 {
-    private let interstitialAd = MAInterstitialAd(adUnitIdentifier: "YOUR_AD_UNIT_ID")
+    private let interstitialAd = MAInterstitialAd(adUnitIdentifier: "8e22f84e973c7eab")
     private var retryAttempt = 0.0
     
     // MARK: View Lifecycle

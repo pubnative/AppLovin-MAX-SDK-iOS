@@ -10,6 +10,7 @@ import AppLovinSDK
 import MessageUI
 import SafariServices
 import UIKit
+import ATOM
 
 class ALHomeViewController: UITableViewController
 {
@@ -55,6 +56,8 @@ class ALHomeViewController: UITableViewController
                 openSupportSite()
             }
         }
+        
+        AtomGestures.start()
     }
     
     func addFooterLabel()
