@@ -179,12 +179,46 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="rootPrototype" textLabel="X1y-0M-Lep" style="IBUITableViewCellStyleDefault" id="Ypn-ot-dy1">
+                                        <rect key="frame" x="0.0" y="407.5" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ypn-ot-dy1" id="umX-OR-n9k">
+                                            <rect key="frame" x="0.0" y="0.0" width="383.5" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Start ATOM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="X1y-0M-Lep">
+                                                    <rect key="frame" x="20" y="0.0" width="355.5" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="rootPrototype" textLabel="JKm-Hd-CTV" style="IBUITableViewCellStyleDefault" id="6Hy-pR-GbY">
+                                        <rect key="frame" x="0.0" y="451.5" width="414" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6Hy-pR-GbY" id="Iso-yb-2rw">
+                                            <rect key="frame" x="0.0" y="0.0" width="383.5" height="44"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Stop ATOM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="JKm-Hd-CTV">
+                                                    <rect key="frame" x="20" y="0.0" width="355.5" height="44"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                             <tableViewSection headerTitle="SUPPORT" id="eH8-Wp-Lzp">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="rootPrototype" textLabel="7vD-N3-r4Y" style="IBUITableViewCellStyleDefault" id="wsi-CD-nqV">
-                                        <rect key="frame" x="0.0" y="455.5" width="414" height="44"/>
+                                        <rect key="frame" x="0.0" y="543.5" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wsi-CD-nqV" id="cet-hX-COf">
                                             <rect key="frame" x="0.0" y="0.0" width="383.5" height="44"/>
@@ -214,6 +248,8 @@
                     <connections>
                         <outlet property="mediationDebuggerCell" destination="QJO-G7-XeA" id="EQg-6t-8lI"/>
                         <outlet property="muteToggle" destination="Mpf-Kg-UX0" id="2gu-pE-efW"/>
+                        <outlet property="startAtomCell" destination="Ypn-ot-dy1" id="cCO-9I-Ibp"/>
+                        <outlet property="stopAtomCell" destination="6Hy-pR-GbY" id="FBD-ng-vxx"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0eV-wE-SZP" userLabel="First Responder" sceneMemberID="firstResponder"/>

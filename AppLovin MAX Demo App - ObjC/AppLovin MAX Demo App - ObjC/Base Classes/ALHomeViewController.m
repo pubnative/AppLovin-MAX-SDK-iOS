@@ -9,9 +9,20 @@
 #import "ALHomeViewController.h"
 #import <AppLovinSDK/AppLovinSDK.h>
 #import <SafariServices/SafariServices.h>
+#import <HyBid/HyBid.h>
+#if __has_include(<HyBid/HyBid-Swift.h>)
+    #import <HyBid/HyBid-Swift.h>
+#else
+    #import "HyBid-Swift.h"
+#endif
+#if __has_include(<ATOM/ATOM-Swift.h>)
+    #import <ATOM/ATOM-Swift.h>
+#endif
 
 @interface ALHomeViewController()
 @property (nonatomic, weak) IBOutlet UITableViewCell *mediationDebuggerCell;
+@property (nonatomic, weak) IBOutlet UITableViewCell *startAtomCell;
+@property (nonatomic, weak) IBOutlet UITableViewCell *stopAtomCell;
 @property (nonatomic, strong) IBOutlet UIBarButtonItem *muteToggle;
 @end
 
@@ -38,8 +49,32 @@ static NSString *const kSupportLink = @"https://support.applovin.com/hc/en-us";
     if ( [tableView cellForRowAtIndexPath: indexPath] == self.mediationDebuggerCell )
     {
         [[ALSdk shared] showMediationDebugger];
-    }
-    else if ( indexPath.section == 1 )
+    } else if ( [tableView cellForRowAtIndexPath: indexPath] == self.startAtomCell )
+    {
+        NSError *atomError = nil;
+        NSString *bundleID = [[NSBundle mainBundle] bundleIdentifier];
+        [Atom startWithApiKey:bundleID isTest:NO error:&atomError withCallback:^(BOOL isSuccess) {
+            if (isSuccess) {
+                NSArray *atomCohorts = [Atom getCohorts];
+                [HyBidLogger infoLogFromClass:NSStringFromClass([self class]) fromMethod:NSStringFromSelector(_cmd) withMessage:[NSString stringWithFormat: [[NSString alloc] initWithFormat: @"ATOM: Received ATOM cohorts: %@", atomCohorts], NSStringFromSelector(_cmd)]];
+                [HyBidLogger infoLogFromClass:NSStringFromClass([self class]) fromMethod:NSStringFromSelector(_cmd) withMessage:[NSString stringWithFormat: [[NSString alloc] initWithFormat: @"ATOM: started"], NSStringFromSelector(_cmd)]];
+            } else {
+                NSString *atomInitResultMessage = [[NSString alloc] initWithFormat:@"Coultdn't initialize ATOM with error: %@", [atomError localizedDescription]];
+                [HyBidLogger errorLogFromClass:NSStringFromClass([self class]) fromMethod:NSStringFromSelector(_cmd) withMessage:[NSString stringWithFormat: atomInitResultMessage, NSStringFromSelector(_cmd)]];
+            }
+        }];
+    } else if ( [tableView cellForRowAtIndexPath: indexPath] == self.stopAtomCell )
+    {
+        [Atom stopWithCallback:^(BOOL isSuccess) {
+            if (isSuccess) {
+                [HyBidLogger infoLogFromClass:NSStringFromClass([self class]) fromMethod:NSStringFromSelector(_cmd) withMessage:[NSString stringWithFormat: [[NSString alloc] initWithFormat: @"Stopping ATOM"], NSStringFromSelector(_cmd)]];
+                [HyBidLogger infoLogFromClass:NSStringFromClass([self class]) fromMethod:NSStringFromSelector(_cmd) withMessage:[NSString stringWithFormat: [[NSString alloc] initWithFormat: @"ATOM: stopped"], NSStringFromSelector(_cmd)]];
+            } else {
+                NSString *atomStopResultMessage = [[NSString alloc] initWithFormat:@"Coultdn't stop ATOM"];
+                [HyBidLogger errorLogFromClass:NSStringFromClass([self class]) fromMethod:NSStringFromSelector(_cmd) withMessage:[NSString stringWithFormat: atomStopResultMessage, NSStringFromSelector(_cmd)]];
+            }
+        }];
+    } else if ( indexPath.section == 1 )
     {
         if ( indexPath.row == 0 )
         {
