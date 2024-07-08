@@ -325,7 +325,6 @@
 				1D992FD9231FA1C300C472F8 /* Resources */,
 				EF0DF9E2C9B57F1BB245498D /* [CP] Embed Pods Frameworks */,
 				6D5C250B507E53ADC25977A5 /* AppLovinQualityService */,
-				2400D4B4945B498CC629D4CA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -383,23 +382,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2400D4B4945B498CC629D4CA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AppLovin MAX Demo App - ObjC/Pods-AppLovin MAX Demo App - ObjC-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AppLovin MAX Demo App - ObjC/Pods-AppLovin MAX Demo App - ObjC-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppLovin MAX Demo App - ObjC/Pods-AppLovin MAX Demo App - ObjC-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		364A00E5BFE65DB7D28409F8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

@@ -9,6 +9,4 @@ target 'AppLovin MAX Demo App - ObjC' do
   pod 'Adjust'
   pod 'HyBid', '3.0.3'
   pod 'ATOM-Standalone', '3.1.0-beta'
-  pod 'AppLovinMediationVungleAdapter'
-  pod 'AppLovinMediationSmaatoAdapter'
 end
