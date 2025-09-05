@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
 s.authors = 'AppLovin Corporation'
 s.name = 'AppLovinMediationVerveAdapter'
-s.version = '3.1.2.0-local'
+s.version = '3.6.1.0-local'
 s.platform = :ios, '12.0'
 s.summary = 'Verve adapter used for mediation with the AppLovin MAX SDK'
 s.homepage = "https://github.com/CocoaPods/Specs/search?o=desc&q=#{s.name}&s=indexed"
@@ -20,11 +20,11 @@ LICENSE
 
 s.source = 
 {
-  :http => "https://artifacts.applovin.com/ios/com/applovin/mediation/verve-adapter/#{s.name}-3.1.2.0.zip",
+  :http => "https://artifacts.applovin.com/ios/com/applovin/mediation/verve-adapter/#{s.name}-3.6.1.0.zip",
   :type => 'zip'
 }
 
-s.vendored_frameworks = "#{s.name}-3.1.2.0/#{s.name}.xcframework"
+s.vendored_frameworks = "#{s.name}-3.6.1.0/#{s.name}.xcframework"
 
 s.dependency 'HyBid'
 s.dependency 'AppLovinSDK', '13.3.1'
