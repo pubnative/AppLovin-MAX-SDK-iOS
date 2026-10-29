@@ -611,6 +611,13 @@ static MAAdapterInitializationStatus ALVerveInitializationStatus = NSIntegerMin;
         return;
     }
 
+    // A text only ad has no images to download, HyBid would fail the fetch with "No assets to fetch."
+    if ( ![nativeAd.iconUrl al_isValidString] && ![nativeAd.bannerUrl al_isValidString] )
+    {
+        [self nativeAdDidFinishFetching: nativeAd];
+        return;
+    }
+
     // Downloads the icon and main image before the ad is handed to MAX
     [nativeAd fetchNativeAdAssetsWithDelegate: self];
 }
