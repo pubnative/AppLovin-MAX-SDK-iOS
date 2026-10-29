@@ -661,7 +661,10 @@ static MAAdapterInitializationStatus ALVerveInitializationStatus = NSIntegerMin;
 {
     [self.parentAdapter log: @"Native ad failed to fetch assets: %@", error];
 
-    MAAdapterError *adapterError = [ALVerveMediationAdapter toMaxError: error];
+    // An image that cannot be downloaded leaves the ad without a required asset
+    MAAdapterError *adapterError = [MAAdapterError errorWithAdapterError: MAAdapterError.missingRequiredNativeAdAssets
+                                                mediatedNetworkErrorCode: error.code
+                                             mediatedNetworkErrorMessage: error.localizedDescription];
     [self.delegate didFailToLoadNativeAdWithError: adapterError];
 }
 
